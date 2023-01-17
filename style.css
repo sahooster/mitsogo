@@ -14,7 +14,7 @@ body{
 }
 
 .box-height{
-    height: 800px;
+    height: 600px;
 }
 
 .readthis{
@@ -33,4 +33,22 @@ body{
 
 .values{
     font-size: 20px;
+}
+
+.main-bg{
+    background-image: url(assets/images/image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.main-content{
+    padding-top: 50px;
+    height: fit-content;
+    margin-top: 150px;
+    color: #fff;
 }
