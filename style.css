@@ -11,6 +11,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200%;
+    position: relative;
+    top: 80px;
 }
 
 .box-height{
@@ -36,19 +38,21 @@ body{
 }
 
 .main-bg{
-    background-image: url(assets/images/image2.jpg);
+    background-image: url(assets/images/Group\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    top: 110%;
-    width: 100%;
-    filter: brightness(50%);
+    position: relative;
+    top: -200px;
 }
 
 .main-content{
-    padding-top: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     height: fit-content;
     margin-top: 150px;
     color: #fff;
 }
+
+
+/* carousel  */
