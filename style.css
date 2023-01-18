@@ -56,3 +56,31 @@ body{
 
 
 /* carousel  */
+.image img{
+    border-radius: 100%;
+    width: 100px;
+
+    margin-left: 40px;
+}
+
+
+
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+  
+ }
+
+ .carousel-indicators [data-bs-target]{
+    background-color: #1E1E1E;
+ }
+
+
+ .carousel-control-next{
+    display: none;
+ }
+
+ .carousel-control-prev{
+    display: none;
+ }
