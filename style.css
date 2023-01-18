@@ -84,3 +84,14 @@ body{
  .carousel-control-prev{
     display: none;
  }
+
+ .services{
+    background-color: #F7F7F7;
+ }
+
+ .image-resp{
+    width: 60px;
+    filter: invert(28%) sepia(72%) saturate(5439%) hue-rotate(232deg) brightness(96%) contrast(98%);
+ }
+
+ 
