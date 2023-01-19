@@ -15,6 +15,12 @@ body{
     top: 80px;
 }
 
+.card-title{
+    margin-left: 30px;
+}
+
+
+
 .box-height{
     height: 600px;
 }
@@ -66,10 +72,11 @@ body{
 
 
 .carousel .carousel-indicators button {
-    width: 10px;
+   width: 10px;
    height: 10px;
    border-radius: 100%;
-  
+   position: relative;
+   top: 50px;
  }
 
  .carousel-indicators [data-bs-target]{
