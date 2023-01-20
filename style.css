@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .hero{
@@ -111,6 +112,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+    top: -50px;
 }
 
 .background-tint {
@@ -128,3 +131,75 @@ body{
     padding-bottom: 100px;
 }
 
+
+
+
+
+/* owl */
+
+/* .owl-carousel.owl-drag .owl-item img{
+    width: 150px;
+} */
+
+.mugshot{
+    margin-top: 250px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.team-potential{
+   line-height: 35px;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
+    position: absolute;
+    left: 0px;
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D600;
+    display: block;
+    backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    border: 1px solid black;
+  }
+
+  .owl-carousel .owl-nav button.owl-prev{
+    display: none;
+  }
+
+
+  .owl-carousel .owl-nav button.owl-next{
+    display: none;
+  }
+
+.owl-rounded{
+    height: 80px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.read-post{
+    background-color: #ED3A50;
+    padding: 100px 130px;
+}
+
+.read-contact{
+    background-color: #364FF4;
+    padding: 100px;
+}
+
+.read-post h5{
+    font-weight: 300;
+}
+
+.read-contact h5{
+    font-weight: 300;
+}
+
+/* font icons   */
