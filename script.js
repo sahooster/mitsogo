@@ -1,11 +1,20 @@
-$(document).ready(function () {
-    $('#searchAppear').hide()
-})
-$(document).ready(function () {
-    $('#search-icon').click(function () {
-        $('#searchAppear').toggle()
-    })
-})
+// $(document).ready(function () {
+//     $('#searchAppear').hide()
+// })
+// $(document).ready(function () {
+//     $('#search-icon').click(function () {
+//         $('#searchAppear').toggle()
+//     })
+// })
+
+function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+  }
+  
+  function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+  }
+
 
 
 
